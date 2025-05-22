@@ -4,7 +4,7 @@ import random
 import requests
 from ANNIEMUSIC import app
 
-SUPPORT_CHAT = "CERTIFIEDCODERS"
+SUPPORT_CHAT = "smarhkarts_gAme"
 SUPPORT_BTN = InlineKeyboardMarkup(
     [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
 )
@@ -15,7 +15,7 @@ CUTE_VIDEO = "https://telegra.ph/file/528d0563175669e123a75.mp4"
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
     if len(m.command) < 2:
-        return await m.reply_text("❌ ᴀᴅᴅ ʏᴏᴜʀ ᴡɪꜱʜ ʙᴀʙʏ 🥀!")
+        return await m.reply_text("❌ ᴀᴅᴅ ʏᴏᴜʀ ᴡɪꜱʜ 🥀!")
 
     try:
         api = requests.get("https://nekos.best/api/v2/happy").json()
@@ -47,7 +47,7 @@ async def cute(_, message):
     mention = f"[{user.first_name}](tg://user?id={user.id})"
     percent = random.randint(1, 100)
 
-    caption = f"🍑 {mention} ɪꜱ {percent}% ᴄᴜᴛᴇ ʙᴀʙʏ 🥀"
+    caption = f"🍑 {mention} ɪꜱ {percent}%  Alagiyee🥀"
 
     await app.send_document(
         chat_id=message.chat.id,
@@ -57,3 +57,12 @@ async def cute(_, message):
         reply_markup=SUPPORT_BTN,
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
     )
+
+help_text = """
+» ᴡʜᴀᴛ ɪꜱ ᴛʜɪꜱ (ᴡɪꜱʜ):
+ʏᴏᴜ ʜᴀᴠɪɴɢ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ 
+(ᴡɪꜱʜᴇꜱ) ʏᴏᴜ ᴄᴀɴ ᴜꜱɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ᴛᴏ ʜᴏᴡ ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ʏᴏᴜʀ ᴡɪꜱʜ!
+ᴇxᴀᴍᴘʟᴇ:» /wish : ɪ ᴡᴀɴᴛ ᴄʟᴀꜱꜱ ᴛᴏᴘᴘᴇʀ 
+» /wish : ɪ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ɪᴘʜᴏɴᴇ 
+» /cute : ʜᴏᴡ ᴍᴜᴄʜ ɪ ᴀᴍ ᴄᴜᴛᴇ 
+"""
