@@ -28,23 +28,23 @@ from config import BANNED_USERS, AYUV
 from strings import get_string
 
 #ANNIE_VID = [
-    "https://telegra.ph/file/5b642532b9f863fd999d4.mp4",
-    "https://telegra.ph/file/48aaf9a2343f61a037a26.mp4",
-    "https://telegra.ph/file/29e46f69428e818658f56.mp4",
-    "https://telegra.ph/file/0bc40f80a86e4d5e4927c.mp4",
-    "https://telegra.ph/file/c7fc58423bbdac8159654.mp4",
-    "https://telegra.ph/file/cd996463de11729bc12ed.mp4",
-    "https://telegra.ph/file/6db754de9707eee737345.mp4",
-    "https://telegra.ph/file/ecc9233d3f09286fa560a.mp4",
- ]
+    #"https://telegra.ph/file/5b642532b9f863fd999d4.mp4",
+    #"https://telegra.ph/file/48aaf9a2343f61a037a26.mp4",
+    #"https://telegra.ph/file/29e46f69428e818658f56.mp4",
+    #"https://telegra.ph/file/0bc40f80a86e4d5e4927c.mp4",
+    #"https://telegra.ph/file/c7fc58423bbdac8159654.mp4",
+    #"https://telegra.ph/file/cd996463de11729bc12ed.mp4",
+    #"https://telegra.ph/file/6db754de9707eee737345.mp4",
+    #"https://telegra.ph/file/ecc9233d3f09286fa560a.mp4",
+ #]
 
 #STICKERS = [
-    "CAACAgIAAxkBAAEMJddmShoWF-pBcBjZci_BXp8C-pJwoAACfzwAAp1BAUgvZiS7bQAB1VA1BA",
-    "CAACAgIAAxkBAAEMpp5mvgiFJPP5kGyLqvCVP_ve6CqhsQACmiIAAtRjwEtKt3-jnWu2WTUE",
-    "CAACAgIAAxkBAAEMpqBmvgi9kBzCSMiON59KhF5onNa-XQACKiEAAvSawUvA6cAGkGwSPzUE",
-    "CAACAgUAAxkBAAEMJeFmShqdR_CLJI0hmaAb2ZVreAAB4g4AArAOAAL-dCFV-9z6DwqfHUE1BA",
+    #"CAACAgIAAxkBAAEMJddmShoWF-pBcBjZci_BXp8C-pJwoAACfzwAAp1BAUgvZiS7bQAB1VA1BA",
+    #"CAACAgIAAxkBAAEMpp5mvgiFJPP5kGyLqvCVP_ve6CqhsQACmiIAAtRjwEtKt3-jnWu2WTUE",
+    #"CAACAgIAAxkBAAEMpqBmvgi9kBzCSMiON59KhF5onNa-XQACKiEAAvSawUvA6cAGkGwSPzUE",
+    #"CAACAgUAAxkBAAEMJeFmShqdR_CLJI0hmaAb2ZVreAAB4g4AArAOAAL-dCFV-9z6DwqfHUE1BA",
 
- ]
+ #]
 
 async def delete_sticker_after_delay(message, delay):
     await asyncio.sleep(delay)
