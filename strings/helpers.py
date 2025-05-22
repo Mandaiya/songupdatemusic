@@ -170,19 +170,12 @@ Telegram emoji games – quick fun.
 
 # ───────────────────────────────────────────────────────────────────────
 HELP_11 = """
-<b><u>ᴄʜᴀᴛɢᴘᴛ :</u></b>
+<b><u>Other :</u></b>
 
-<b><u>Cʜᴀᴛ-ᴡɪᴛʜ-AI ғᴇᴀᴛᴜʀᴇs.</u></b>
+<b><u>Other features added.</u></b>
 
-• Assis - ᴛʜᴇ ᴀɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ɪɴ ᴀᴜᴅɪᴏ ꜰᴏʀᴍᴀᴛ.
-• /gpt - ᴀᴄᴄᴇꜱꜱ ɢᴘᴛ ꜰᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ.
-• /bard - ɪɴᴠᴏᴋᴇ ᴛʜᴇ ʙᴀʀᴅ ꜰᴇᴀᴛᴜʀᴇ.
-• /llama - ᴇɴɢᴀɢᴇ ᴡɪᴛʜ ʟʟᴀᴍᴀ ᴍᴏᴅᴇ.
-• /gemini - ɪɴᴠᴏᴋᴇ ᴛʜᴇ ɢᴇᴍɪɴɪ ꜰᴇᴀᴛᴜʀᴇ.
-• /geminivision - ᴇxᴘʟᴏʀᴇ ɢᴇᴍɪɴɪ ᴍᴏᴅᴇ.
-• /mistral - ᴀᴄᴛɪᴠᴀᴛᴇ ᴍɪꜱᴛʀᴀʟ ᴄᴏᴅᴇ.
-• /tts - ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ꜱᴘᴇᴇᴄʜ.
-• /enhance - ɪᴍᴀɢᴇ ᴜᴘsᴄᴀʟᴇ ғʀᴇᴇ ᴀᴘɪ.
+• /cricket : can bat and bowl ( just for fun)
+
 """
 
 # ───────────────────────────────────────────────────────────────────────
@@ -253,12 +246,26 @@ HELP_17 = """
 <b><u>ᴍᴀꜱᴛɪ ♡︎  (ғᴜɴ):</u></b>
 Random social mini-games.
 
-• /couple – Pick today’s random pair.  
-• /love Alice Bob – % compatibility.  
-• /cute, /hot, /gay, /sexy, /horny … – Self-rating fun.  
-• /kiss, /hug, /slap – Role-play replies.  
-• /sleep – Bot tells you good night.  
-• /wish Happy birthday! – Sweet wish card generator.  
+/day ➠ ᴇɴᴛᴇʀ ᴛʜᴇ ᴅᴀᴛᴇ {ʏᴇᴀʀ/ᴍᴏɴᴛʜ/ᴅᴀᴛᴇ} ᴀғᴛᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ғɪɴᴅ ᴛʜᴇ ᴅᴀʏ ᴏɴ ᴛʜᴀᴛ ᴅᴀᴛᴇ.
+/cute ➠ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜᴛᴇɴᴇss🥰.
+/hjoke ➠ ɢᴇᴛ ʀᴀɴᴅᴏᴍ ғᴜɴɴʏ ᴊᴏᴋᴇs😁.
+/kiss ➠ ᴛᴏ ᴋɪss sᴏᴍᴇᴏɴᴇ.
+/hu𝐆 ➠ ᴛᴏ ʜᴜɢ ᴘᴇʀsᴏɴ.
+/slap ➠ ᴛᴏ sʟᴀᴘ sᴏᴍᴇᴏɴᴇ.
+/sleep ➠ ᴛᴏ sʟᴇᴇᴘ🫠.
+/run ➠ ʀᴜɴ😅.
+/wish ➠ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴡɪsʜ ᴀғᴛᴇʀ ᴄᴏᴍᴍᴀɴᴅ.
+/bored ➠ ᴊᴜsᴛ ғᴏʀ ғᴜɴ😁.
+/𝐆amer ➠ ɢᴇᴛ ʏᴏᴜʀ ɢame ᴘᴇʀᴄᴇɴᴛᴀɢᴇ  ˡᵒˡ 😅.
+/handsome ➠ ᴄʜᴇᴄᴋ if u are a 𝐆entleman.
+/kolaru ➠ ᴄʜᴇᴄᴋ ʏᴏᴜʀ Kolaruness🤣.
+/no ➠ᴄʜᴇᴄᴋ ʏᴏᴜʀ rejected ᴘᴇʀᴄᴇɴᴛᴀɢᴇ.
+/cutie ➠ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜᴛᴇɴᴇss.
+/accepted ➠ ᴄʜᴇᴄᴋ how many of them accepted you.
+/cool ➠ ᴄʜᴇᴄᴋ ʜᴏᴡ ᴍᴜᴄʜ Cool you are.
+/uruttu ➠ ᴄʜᴇᴄᴋ how much uruttan you are😝.
+
+ Modules from𓆪 ➪ [☼ 𝝢𝗖 S𝝞𝝢𝐆Ⳑ𝝚 ☼ ](https://t.me/we_are_universee)
 """
 
 # ───────────────────────────────────────────────────────────────────────
@@ -300,11 +307,22 @@ HELP_20 = """
 
 # ───────────────────────────────────────────────────────────────────────
 HELP_21 = """
-<b><u>ʀᴇᴘᴏ ɪɴғᴏ :</u></b>
-
-• /pypo ➠ ᴇɴᴛᴇʀ ᴛʜᴇ ᴘʀᴏᴊᴇᴄᴛ ɴᴀᴍᴇ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ꜱᴛᴀᴛꜱ ᴏꜰ ᴛʜᴀᴛ ᴘʀᴏᴊᴇᴄᴛ [ᴘʀᴏᴊᴇᴄᴛ = ɢɪᴛʜᴜʙ ʀᴇᴘᴏꜱɪᴛᴏʀɪᴇꜱ].
-• /downloadrepo ➠ ᴇɴᴛᴇʀ ᴛʜᴇ ʀᴇᴘᴏꜱɪᴛᴏʀʏ ʟɪɴᴋ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ʀᴇᴘᴏꜱɪᴛᴏʀʏ.
-
+<b><u>Random Gifs :</u></b>
+• ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ʀᴇɢᴀʀᴅɪɴɢ ʀᴇᴘᴏ
+ <> punch    - random gifs throws an punch
+ <> slap     - random gifs throws an slap
+ <> hide     - random gifs throws an hide
+ <> knife    - random gifs throws an knife
+ <> kicks    - random gifs throws an kicks
+ <> hug      - random gifs throws an hug
+ <> hate     - random gifs throws an hate
+ <> highfive - random gifs throws an highfive
+ <> die      - random gifs throws an die
+ <> run      - random gifs throws an run
+ <> shoot    - random gifs throws an shoot
+ <> dance    - random gifs throws an dance
+ 
+ Modules from𓆪 ➪ [☼ 𝝢𝗖 S𝝞𝝢𝐆Ⳑ𝝚 ☼ ](https://t.me/we_are_universee)
 """
 
 # ───────────────────────────────────────────────────────────────────────
@@ -313,10 +331,9 @@ HELP_22 = """
 
 • /anime <ǫᴜᴇʀʏ> : ꜱᴇᴀʀᴄʜ ᴍʏᴀɴɪᴍᴇʟɪꜱᴛ ꜰᴏʀ ᴛʜᴇ ɢɪᴠᴇɴ ǫᴜᴇʀʏ.
 • /mongochk : ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴛᴀᴛᴜꜱ ᴏꜰ ʏᴏᴜʀ ᴍᴏɴɢᴏᴅʙ ɪɴꜱᴛᴀɴᴄᴇ [ᴇɴᴛᴇʀ ᴛʜᴇ ᴍᴏɴɢᴏᴅʙ ʟɪɴᴋ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ].
-• /ip : ᴇɴᴛᴇʀ ᴛʜᴇ ɪᴘ ᴀᴅᴅʀᴇꜱꜱ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ɪᴘ.
-• /domain : ᴇɴᴛᴇʀ ᴛʜᴇ ᴅᴏᴍᴀɪɴ ɴᴀᴍᴇ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ꜰɪɴᴅ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴅᴏᴍᴀɪɴ.
 • /weather : ᴇɴᴛᴇʀ ᴛʜᴇ ʟᴏᴄᴀᴛɪᴏɴ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴡᴇᴀᴛʜᴇʀ ᴏꜰ ᴛʜᴀᴛ ʟᴏᴄᴀᴛɪᴏɴ.
 
+Modules from𓆪 ➪ [☼ 𝝢𝗖 S𝝞𝝢𝐆Ⳑ𝝚 ☼ ](https://t.me/we_are_universee)
 """
 
 # ───────────────────────────────────────────────────────────────────────
@@ -326,6 +343,8 @@ Jump inside the currently playing media.
 
 • /seek [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ ꜱᴇᴄᴏɴᴅꜱ] : ꜱᴇᴇᴋ ᴛʜᴇ ꜱᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
 • /seekback [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ ꜱᴇᴄᴏɴᴅꜱ] : ʙᴀᴄᴋᴡᴀʀᴅ ꜱᴇᴇᴋ ᴛʜᴇ ꜱᴛʀᴇᴀᴍ ʙʏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
+
+Modules from𓆪 ➪ [☼ 𝝢𝗖 S𝝞𝝢𝐆Ⳑ𝝚 ☼ ](https://t.me/we_are_universee)
 
 """
 
@@ -369,8 +388,10 @@ HELP_27 = """
 • /packkang ➠ ᴄʀᴇᴀᴛᴇꜱ ᴀ ᴘᴀᴄᴋ ᴏꜰ ꜱᴛɪᴄᴋᴇʀꜱ ꜰʀᴏᴍ ᴀɴᴏᴛʜᴇʀ ᴘᴀᴄᴋ.
 • /stid ➠ ɢᴇᴛꜱ ᴛʜᴇ ꜱᴛɪᴄᴋᴇʀ ɪᴅ ᴏꜰ ᴀ ꜱᴛɪᴄᴋᴇʀ.
 • /st ➠ ᴛᴏ ꜰɪɴᴅ ᴛʜᴇ ꜱᴛɪᴄᴋᴇʀ, ᴘʟᴇᴀꜱᴇ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇ ꜱᴛɪᴄᴋᴇʀ ɪᴅ ᴀꜰᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.
-• /meme ➠ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴍᴇᴍᴇꜱ.
 • /stdl ➠ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ sᴛɪᴄᴋᴇʀ.
+
+Modules from𓆪 ➪ [☼ 𝝢𝗖 S𝝞𝝢𝐆Ⳑ𝝚 ☼ ](https://t.me/we_are_universee)
+
 """
 
 # ───────────────────────────────────────────────────────────────────────
@@ -390,8 +411,6 @@ Mention everyone – responsibly!
 • /histop ➠ ꜱᴛᴏᴘ ʜɪɴᴅɪ ǫᴜᴏᴛᴇꜱ.
 • /lifetag ➠ ᴛᴀɢ ᴍᴇᴍʙᴇʀꜱ ᴡɪᴛʜ ᴇɴɢʟɪꜱʜ ǫᴜᴏᴛᴇꜱ.
 • /lifestop ➠ ꜱᴛᴏᴘ ᴇɴɢʟɪꜱʜ ǫᴜᴏᴛᴇꜱ.
-• /shayari ➠ ᴛᴀɢ ᴀʟʟ ᴍᴇᴍʙᴇʀꜱ ᴡɪᴛʜ ꜱʜᴀʏᴀʀɪ 😜.
-• /shayarioff ➠ ꜱᴛᴏᴘ ᴍᴇɴᴛɪᴏɴɪɴɢ ꜱʜᴀʏᴀʀɪ.
 """
 
 # ───────────────────────────────────────────────────────────────────────
