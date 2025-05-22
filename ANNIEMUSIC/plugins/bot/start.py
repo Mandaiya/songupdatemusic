@@ -3,7 +3,7 @@ import random
 import time
 from pyrogram import filters
 from pyrogram.enums import ChatType
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
@@ -23,10 +23,28 @@ from ANNIEMUSIC.utils.database import (
 )
 from ANNIEMUSIC.utils.decorators.language import LanguageStart
 from ANNIEMUSIC.utils.formatters import get_readable_time
-from ANNIEMUSIC.utils.inline.start import private_panel, start_panel
-from ANNIEMUSIC.utils.inline.help import first_page
-from config import BANNED_USERS, AYUV, HELP_IMG_URL, START_VIDS, STICKERS
+from ANNIEMUSIC.utils.inline import help_pannel, private_panel, start_panel
+from config import BANNED_USERS, AYUV
 from strings import get_string
+
+ANNIE_VID = [
+    "https://telegra.ph/file/5b642532b9f863fd999d4.mp4",
+    "https://telegra.ph/file/48aaf9a2343f61a037a26.mp4",
+    "https://telegra.ph/file/29e46f69428e818658f56.mp4",
+    "https://telegra.ph/file/0bc40f80a86e4d5e4927c.mp4",
+    "https://telegra.ph/file/c7fc58423bbdac8159654.mp4",
+    "https://telegra.ph/file/cd996463de11729bc12ed.mp4",
+    "https://telegra.ph/file/6db754de9707eee737345.mp4",
+    "https://telegra.ph/file/ecc9233d3f09286fa560a.mp4",
+]
+
+STICKERS = [
+    "CAACAgIAAxkBAAEMJddmShoWF-pBcBjZci_BXp8C-pJwoAACfzwAAp1BAUgvZiS7bQAB1VA1BA",
+    "CAACAgIAAxkBAAEMpp5mvgiFJPP5kGyLqvCVP_ve6CqhsQACmiIAAtRjwEtKt3-jnWu2WTUE",
+    "CAACAgIAAxkBAAEMpqBmvgi9kBzCSMiON59KhF5onNa-XQACKiEAAvSawUvA6cAGkGwSPzUE",
+    "CAACAgUAAxkBAAEMJeFmShqdR_CLJI0hmaAb2ZVreAAB4g4AArAOAAL-dCFV-9z6DwqfHUE1BA",
+
+]
 
 async def delete_sticker_after_delay(message, delay):
     await asyncio.sleep(delay)
@@ -39,9 +57,11 @@ async def start_pm(client, message: Message, _):
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
-            keyboard = first_page(_)
-            await message.reply_photo(
-                photo=HELP_IMG_URL,
+            keyboard = help_pannel(_)
+            sticker_message = await message.reply_sticker(sticker=random.choice(STICKERS))
+            asyncio.create_task(delete_sticker_after_delay(sticker_message, 5))  # Delete sticker after 2 seconds
+            await message.reply_video(
+                random.choice(ANNIE_VID),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -72,8 +92,8 @@ async def start_pm(client, message: Message, _):
             key = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=_["S_B_6"], url=link),
-                        InlineKeyboardButton(text=_["S_B_4"], url=config.SUPPORT_CHAT),
+                        InlineKeyboardButton(text=_["S_B_8"], url=link),
+                        InlineKeyboardButton(text=_["S_B_9"], url=config.SUPPORT_CHAT),
                     ],
                 ]
             )
@@ -92,15 +112,13 @@ async def start_pm(client, message: Message, _):
     else:
         out = private_panel(_)
         sticker_message = await message.reply_sticker(sticker=random.choice(STICKERS))
-        asyncio.create_task(delete_sticker_after_delay(sticker_message, 2))
+        asyncio.create_task(delete_sticker_after_delay(sticker_message, 5))  # Delete sticker after 2 seconds
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         UP, CPU, RAM, DISK = await bot_sys_stats()
         await message.reply_video(
-            random.choice(START_VIDS),
-            caption=random.choice(AYUV).format(
-                message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats
-            ),
+            random.choice(ANNIE_VID),
+            caption=random.choice(AYUV).format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
             reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(2):
@@ -115,7 +133,7 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_video(
-        random.choice(START_VIDS),
+        random.choice(ANNIE_VID),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -149,7 +167,7 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply_video(
-                    random.choice(START_VIDS),
+                    random.choice(ANNIE_VID),
                     caption=_["start_3"].format(
                         message.from_user.mention,
                         app.mention,
