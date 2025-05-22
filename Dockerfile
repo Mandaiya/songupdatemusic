@@ -1,14 +1,15 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
-
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends ffmpeg \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+FROM python:3.13-slim
 
 WORKDIR /app
-COPY . .
 
-RUN pip3 install --no-cache-dir --upgrade pip \
-    && pip3 install --no-cache-dir --upgrade -r requirements.txt
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
 
-CMD bash start
+RUN pip install --no-cache-dir uv
+
+COPY . /app/
+
+RUN uv pip install -e . --system
+
+CMD ["songupdate"]
