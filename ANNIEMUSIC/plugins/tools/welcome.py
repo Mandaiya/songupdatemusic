@@ -19,7 +19,7 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-import admin_filter
+import admin_filters
 import os
 from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
