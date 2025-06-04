@@ -13,11 +13,11 @@ from ANNIEMUSIC import app
 # ─────────────────────────────
 # CONFIG
 # ─────────────────────────────
-BG_PATH      = "ANNIEMUSIC/assets/annie/AnnieNwel.png"
+BG_PATH      = "ANNIEMUSIC/assets/annie/Welcomeme.png"
 FALLBACK_PIC = "ANNIEMUSIC/assets/upic.png"
 FONT_PATH    = "ANNIEMUSIC/assets/annie/ArialReg.ttf"
-BTN_VIEW     = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
-BTN_ADD      = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
+BTN_VIEW     = "< ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ >"
+BTN_ADD      = "< ᴋɪᴅɴᴀᴘ ᴍᴇ >"
 
 CAPTION_TXT = """
 **❅────✦ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ✦────❅
